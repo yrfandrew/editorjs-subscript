@@ -27,7 +27,7 @@ module.exports = {
     path: __dirname + '/dist',
     publicPath: '/',
     filename: 'bundle.js',
-    library: 'Underline',
+    library: 'Subscript',
     libraryTarget: 'umd'
   }
 };
