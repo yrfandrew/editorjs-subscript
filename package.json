@@ -1,40 +1,26 @@
 {
-  "_from": "editorjs-subscript",
-  "_id": "editorjs-subscript@0.0.4",
-  "_inBundle": false,
-  "_integrity": "sha512-wa8SS3IqQkwbvUfSPy5/ysQU1D6dyqAcU6sOuE4CdLOB5zp59pk+pvKkh9/M+VyFzsmYsfzR4EBeVdD5wNb9rQ==",
-  "_location": "/editorjs-subscript",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "editorjs-subscript",
-    "name": "editorjs-subscript",
-    "escapedName": "editorjs-subscript",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/editorjs-subscript/-/editorjs-subscript-0.0.4.tgz",
-  "_shasum": "eba4cd414b9a89a032f478ed55f42055579a6dcb",
-  "_spec": "editorjs-subscript",
-  "_where": "F:\\WorkStation\\manage.oms.ulucu.com\\pwa",
-  "author": {
-    "name": "Andrew Ye"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ],
-  "bugs": {
-    "url": "https://github.com/yrfandrew/editorjs-subscript/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "editorjs-subscript",
+  "version": "0.0.5",
   "description": "Subscript Tool for highlighting text-fragments for the Editor.js.",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yrfandrew/editorjs-subscript.git"
+  },
+  "keywords": [
+    "codex",
+    "editor",
+    "subscript",
+    "tool",
+    "editor.js",
+    "editorjs"
+  ],
+  "author": "Andrew Ye",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
@@ -46,25 +32,12 @@
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2"
   },
+  "bugs": {
+    "url": "https://github.com/yrfandrew/editorjs-subscript/issues"
+  },
   "homepage": "https://github.com/yrfandrew/editorjs-subscript#readme",
-  "keywords": [
-    "codex",
-    "editor",
-    "subscript",
-    "tool",
-    "editor.js",
-    "editorjs"
-  ],
-  "license": "MIT",
-  "main": "./dist/bundle.js",
-  "name": "editorjs-subscript",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yrfandrew/editorjs-subscript.git"
-  },
-  "scripts": {
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development --watch"
-  },
-  "version": "0.0.4"
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
