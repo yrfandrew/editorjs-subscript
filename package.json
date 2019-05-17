@@ -1,6 +1,6 @@
 {
   "name": "editorjs-subscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Subscript Tool for highlighting text-fragments for the Editor.js.",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -24,9 +24,6 @@
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
-    "@vue/cli-plugin-babel": "^3.7.0",
-    "@vue/cli-plugin-eslint": "^3.7.0",
-    "@vue/cli-service": "^3.7.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
