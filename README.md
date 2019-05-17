@@ -15,7 +15,7 @@ npm i --save-dev editorjs-subscript
 Include module at your application
 
 ```javascript
-const Underline = require('editorjs-subscript');
+const Subscript = require('editorjs-subscript');
 ```
 
 ### Download to your project's source dir
