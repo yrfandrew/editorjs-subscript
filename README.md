@@ -48,7 +48,7 @@ This Tool has no config params
 
 ## Output data
 
-Marked text will be wrapped with a `mark` tag with an `cdx-marker` class.
+Marked text will be wrapped with a `sub` tag.
 
 ```json
 {
