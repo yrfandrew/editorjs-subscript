@@ -33,9 +33,7 @@ var editor = EditorJS({
   
   tools: {
     ...
-    subscript: {
-      class: Subscript,
-    }
+    subscript: Subscript,
   },
   
   ...
