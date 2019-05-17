@@ -2,7 +2,7 @@
   "name": "editorjs-subscript",
   "version": "1.0.0",
   "description": "Subscript Tool for highlighting text-fragments for the Editor.js.",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
