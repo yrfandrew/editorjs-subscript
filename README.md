@@ -1,6 +1,6 @@
-# Underline Tool
+# Subscript Tool
 
-Underline Tool for highlighting text-fragments for the [Editor.js](https://editorjs.io).
+Subscript Tool for highlighting text-fragments for the [Editor.js](https://editorjs.io).
 
 ## Installation
 
@@ -9,13 +9,13 @@ Underline Tool for highlighting text-fragments for the [Editor.js](https://edito
 Get the package
 
 ```shell
-npm i --save-dev editorjs-underline
+npm i --save-dev editorjs-subscript
 ```
 
 Include module at your application
 
 ```javascript
-const Underline = require('editorjs-underline');
+const Underline = require('editorjs-subscript');
 ```
 
 ### Download to your project's source dir
@@ -33,8 +33,8 @@ var editor = EditorJS({
   
   tools: {
     ...
-    underline: {
-      class: Underline,
+    subscript: {
+      class: Subscript,
     }
   },
   
@@ -54,7 +54,7 @@ Marked text will be wrapped with a `mark` tag with an `cdx-marker` class.
 {
     "type" : "text",
     "data" : {
-        "text" : "Create a directory for your module, enter it and run <span class=\"cdx-underline\">npm init</span> command."
+        "text" : "Create a directory for your module, enter it and run <sub>npm init</sub> command."
     }
 }
 ```
