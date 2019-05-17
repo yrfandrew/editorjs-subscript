@@ -1,0 +1,46 @@
+{
+  "name": "editorjs-subscript",
+  "version": "1.0.0",
+  "description": "Subscript Tool for highlighting text-fragments for the Editor.js.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yrfandrew/editorjs-subscript.git"
+  },
+  "keywords": [
+    "codex",
+    "editor",
+    "subscript",
+    "tool",
+    "editor.js",
+    "editorjs"
+  ],
+  "author": "Andrew Ye",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/yrfandrew/editorjs-subscript/issues"
+  },
+  "homepage": "https://github.com/yrfandrew/editorjs-subscript#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
