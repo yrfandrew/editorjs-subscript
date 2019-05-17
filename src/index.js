@@ -78,7 +78,7 @@ class Subscript {
       return;
     }
 
-    let termWrapper = this.api.selection.findParentTag(this.tag, Subscript.CSS);
+    let termWrapper = this.api.selection.findParentTag(this.tag);
 
     /**
      * If start or end of selection is in the highlighted block
@@ -101,7 +101,7 @@ class Subscript {
      */
     let sub = document.createElement(this.tag);
 
-    sub.classList.add(Subscript.CSS);
+    // sub.classList.add(Subscript.CSS);
 
     /**
      * SurroundContent throws an error if the Range splits a non-Text node with only one of its boundary points
@@ -155,7 +155,7 @@ class Subscript {
    * Check and change Term's state for current selection
    */
   checkState() {
-    const termTag = this.api.selection.findParentTag(this.tag, Subscript.CSS);
+    const termTag = this.api.selection.findParentTag(this.tag);
 
     this.button.classList.toggle(this.iconClasses.active, !!termTag);
   }
@@ -174,9 +174,7 @@ class Subscript {
    */
   static get sanitize() {
     return {
-      sub: {
-        class: Subscript.CSS
-      }
+      sub: {}
     };
   }
 }
