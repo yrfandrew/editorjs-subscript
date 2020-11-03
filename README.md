@@ -1,6 +1,8 @@
+![](https://badgen.net/badge/Editor.js/v2.0/blue)
+
 # Subscript Tool
 
-Subscript Tool for highlighting text-fragments for the [Editor.js](https://editorjs.io).
+Subscript Tool for marking text-fragments for the [Editor.js](https://ifmo.su/editor).
 
 ## Installation
 
@@ -33,7 +35,9 @@ var editor = EditorJS({
   
   tools: {
     ...
-    subscript: Subscript,
+    subscript: {
+      class: Subscript
+    },
   },
   
   ...
@@ -46,13 +50,13 @@ This Tool has no config params
 
 ## Output data
 
-Marked text will be wrapped with a `sub` tag.
+Marked text will be wrapped with a `sub` tag with an `cdx-subscript` class.
 
 ```json
 {
     "type" : "text",
     "data" : {
-        "text" : "Create a directory for your module, enter it and run <sub>npm init</sub> command."
+        "text" : "This is test<sub class='cdx-subscript'>text</sub>."
     }
 }
 ```
